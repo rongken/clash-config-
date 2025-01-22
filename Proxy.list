@@ -86,6 +86,13 @@ DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-KEYWORD,aktv.top
 DOMAIN-KEYWORD,missav
 
+# Netflix IPv6 禁用规则
+DOMAIN-SUFFIX,netflix.com,no-resolve
+DOMAIN-SUFFIX,nflxext.com,no-resolve
+DOMAIN-SUFFIX,nflximg.net,no-resolve
+DOMAIN-SUFFIX,nflxvideo.net,no-resolve
+IP-CIDR6,::/0,no-resolve
+
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
