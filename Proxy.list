@@ -91,7 +91,7 @@ DOMAIN-SUFFIX,netflix.com,no-resolve
 DOMAIN-SUFFIX,nflxext.com,no-resolve
 DOMAIN-SUFFIX,nflximg.net,no-resolve
 DOMAIN-SUFFIX,nflxvideo.net,no-resolve
-IP-CIDR6,::/0,no-resolve
+
 
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
@@ -101,3 +101,4 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
+IP-CIDR6,::/0,no-resolve
