@@ -10,11 +10,9 @@ DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
 DOMAIN-SUFFIX,dot.sb
 DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,doh.dns.sb
 DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,hk-hkg.doh.sb
 
 # 其他网站
@@ -43,14 +41,12 @@ DOMAIN-SUFFIX,browserleaks.net
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,llgjc1.com
 DOMAIN-SUFFIX,qichiyu.com
-
 DOMAIN-SUFFIX,stotik.com
 DOMAIN-SUFFIX,streetfighter.com
 DOMAIN-SUFFIX,capcom.com
 DOMAIN-SUFFIX,fcdn.sk
 DOMAIN-SUFFIX,kooink.com
 DOMAIN-SUFFIX,nodeseek.com
-
 DOMAIN-SUFFIX,hlive.io
 DOMAIN-SUFFIX,ndmdhs.com
 DOMAIN-SUFFIX,anygate.vip
@@ -59,9 +55,7 @@ DOMAIN-SUFFIX,bitwayeat.com
 DOMAIN-SUFFIX,etcbbi.xyz
 DOMAIN-SUFFIX,etcbbf.xyz
 DOMAIN-SUFFIX,etcbbj.xyz
-DOMAIN-SUFFIX,etcbbi.xyz
 DOMAIN-SUFFIX,etcbbh.xyz
-DOMAIN-SUFFIX,etcbbf.xyz
 DOMAIN-SUFFIX,etcbbg.xyz
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,pipecdn.vip
@@ -70,9 +64,7 @@ DOMAIN-SUFFIX,tfboyaac.com
 DOMAIN-SUFFIX,tfboyaab.com
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,tfboyaaa.com
-
 DOMAIN-SUFFIX,polivera.ai
-DOMAIN-SUFFIX,asiassn.com
 DOMAIN-SUFFIX,mmcks.top
 DOMAIN-SUFFIX,needay.xyz
 DOMAIN-SUFFIX,mzzxuh.com
@@ -114,11 +106,9 @@ DOMAIN-KEYWORD,6868
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
-DOMAIN-KEYWORD,f666666
 DOMAIN-KEYWORD,keeflys
 
-
-
+# 重要DNS
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
