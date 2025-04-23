@@ -9,6 +9,8 @@ IP-CIDR,103.195.103.66/32,no-resolve
 IP-CIDR,104.243.44.248/32,no-resolve
 IP-CIDR,153.254.103.227/32,no-resolve
 
+UDP-PORT,123,no-resolve
+
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
