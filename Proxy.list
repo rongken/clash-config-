@@ -19,8 +19,6 @@ IP-CIDR,103.195.103.66/32,no-resolve
 
 
 
-
-
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
@@ -31,10 +29,6 @@ DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,doh.dns.sb
 DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,hk-hkg.doh.sb
-
-# Google 日志服务（应代理）
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 
 
 # 其他网站
