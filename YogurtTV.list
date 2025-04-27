@@ -13,22 +13,8 @@ IP-CIDR,79.127.159.0/24,no-resolve
 IP-CIDR,106.55.184.0/24,no-resolve
 
 
-
-
-
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-
-
-
+DOMAIN-SUFFIX,6868c.cc
+DOMAIN-SUFFIX,6868a.cc
 DOMAIN-SUFFIX,nivodi.com
 DOMAIN-SUFFIX,arin.net
 DOMAIN-SUFFIX,null-addr.com
@@ -38,15 +24,16 @@ DOMAIN-SUFFIX,null-addr.biz
 DOMAIN-SUFFIX,null-addr.info
 DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,f666666.xyz
-DOMAIN-SUFFIX,time.android.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,ip-api.com
 
+DOMAIN-KEYWORD,f666666
 DOMAIN-KEYWORD,yfsp
 DOMAIN-KEYWORD,iyf
 DOMAIN-KEYWORD,hlive
 DOMAIN-KEYWORD,vlive
 DOMAIN-KEYWORD,ytv9x
 DOMAIN-KEYWORD,6868
-DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
 DOMAIN-KEYWORD,keeflys
