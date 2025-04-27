@@ -11,8 +11,9 @@ IP-CIDR,103.195.103.66/32,no-resolve
 IP-CIDR,104.243.44.0/24,no-resolve
 IP-CIDR,79.127.159.0/24,no-resolve
 IP-CIDR,106.55.184.0/24,no-resolve
+IP-CIDR,104.238.220.0/24,no-resolve
 
-
+DOMAIN-SUFFIX,mtsclound.com
 DOMAIN-SUFFIX,6868c.cc
 DOMAIN-SUFFIX,6868a.cc
 DOMAIN-SUFFIX,nivodi.com
