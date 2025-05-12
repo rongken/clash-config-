@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,pastebin.com
+DOMAIN-SUFFIX,checksum.cc
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
