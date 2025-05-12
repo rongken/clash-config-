@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,hk-hkg.doh.sb
 
 
-# 其他网站
+# DOMAIN-SUFFIX 规则
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-SUFFIX,1lib.sk
@@ -56,7 +56,6 @@ DOMAIN-SUFFIX,ndmdhs.com
 DOMAIN-SUFFIX,anygate.vip
 DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,bitwayeat.com
-DOMAIN-SUFFIX,etcbbi.xyz
 DOMAIN-SUFFIX,etcbbf.xyz
 DOMAIN-SUFFIX,etcbbj.xyz
 DOMAIN-SUFFIX,etcbbh.xyz
@@ -79,8 +78,6 @@ DOMAIN-SUFFIX,metacubex.one
 DOMAIN-SUFFIX,xiaoxintv.cc
 DOMAIN-SUFFIX,69yun.top
 DOMAIN-SUFFIX,nivodi.com
-DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,abcproxy.com
 DOMAIN-SUFFIX,piliapp.com
 DOMAIN-SUFFIX,meijutt.cc
@@ -99,6 +96,9 @@ DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
+DOMAIN-SUFFIX,f666666.xyz
+
+# DOMAIN-KEYWORD 规则（去重）
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,yfsp
 DOMAIN-KEYWORD,iyf
@@ -106,11 +106,11 @@ DOMAIN-KEYWORD,hlive
 DOMAIN-KEYWORD,vlive
 DOMAIN-KEYWORD,ytv9x
 DOMAIN-KEYWORD,6868
-DOMAIN-KEYWORD,f666666
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
 DOMAIN-KEYWORD,keeflys
+
 
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
