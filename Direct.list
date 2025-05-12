@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,checksum.cc
 DOMAIN-SUFFIX,vstsvip.top
+DOMAIN-SUFFIX,tinyadx.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
