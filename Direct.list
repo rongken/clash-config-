@@ -2,15 +2,14 @@
 
 # MyList
 # 域名后缀匹配
-DOMAIN-SUFFIX,lanzov.com
-DOMAIN-SUFFIX,hao123.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,checksum.cc
 DOMAIN-SUFFIX,vstsvip.top
 DOMAIN-SUFFIX,tinyadx.com
 DOMAIN-SUFFIX,360mixup.com
-
+DOMAIN-SUFFIX,lanzov.com
+DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,pastebin.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
