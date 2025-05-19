@@ -97,6 +97,8 @@ DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-SUFFIX,f666666.xyz
+DOMAIN-SUFFIX,f2pool.com
+DOMAIN-SUFFIX,viabtc.com
 
 # DOMAIN-KEYWORD 规则（去重）
 DOMAIN-KEYWORD,missav
@@ -110,6 +112,7 @@ DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
 DOMAIN-KEYWORD,keeflys
+
 
 
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
