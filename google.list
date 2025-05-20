@@ -1,9 +1,14 @@
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googleusercontent.com
+# Google Play 下载/更新所需域名
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,android.clients.google.com
 DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN-SUFFIX,clients3.google.com
-DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,update.googleapis.com
