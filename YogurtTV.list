@@ -42,8 +42,9 @@ DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
 DOMAIN-KEYWORD,keeflys
 
-PROCESS-NAME,authapi1
-PROCESS-NAME,authapi
+DOMAIN-KEYWORD,authapi1
+DOMAIN-KEYWORD,authapi
+DOMAIN-KEYWORD,collectapi
 
 
 
