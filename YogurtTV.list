@@ -14,8 +14,7 @@ IP-CIDR,106.55.184.0/24,no-resolve
 IP-CIDR,104.238.220.0/24,no-resolve
 IP-CIDR,51.79.163.0/24,no-resolve
 IP-CIDR,139.99.69.0/24,no-resolve
-PROCESS-NAME,authapi1
-PROCESS-NAME,authapi
+
 
 DOMAIN-SUFFIX,mtsclound.com
 DOMAIN-SUFFIX,6868c.cc
@@ -42,6 +41,9 @@ DOMAIN-KEYWORD,6868
 DOMAIN-KEYWORD,bambooplayer
 DOMAIN-KEYWORD,notescrassula
 DOMAIN-KEYWORD,keeflys
+
+PROCESS-NAME,authapi1
+PROCESS-NAME,authapi
 
 
 
