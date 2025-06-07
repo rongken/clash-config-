@@ -2,7 +2,6 @@
 
 # MyList
 # 域名后缀匹配
-DOMAIN-SUFFIX,log-report.com
 DOMAIN-SUFFIX,checksum.cc
 DOMAIN-SUFFIX,vstsvip.top
 DOMAIN-SUFFIX,tinyadx.com
@@ -13,6 +12,7 @@ DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,us.kg
 DOMAIN-SUFFIX,laowang5555.com
+DOMAIN-SUFFIX,ddns-ip.net
 
 # 域名关键字匹配
 
