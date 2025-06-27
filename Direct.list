@@ -9,13 +9,11 @@ DOMAIN-SUFFIX,360mixup.com
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,pastebin.com
-DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,us.kg
 DOMAIN-SUFFIX,laowang5555.com
 DOMAIN-SUFFIX,ddns-ip.net
 
 # 域名关键字匹配
-
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,iill
 DOMAIN-KEYWORD,ok321
@@ -83,7 +81,6 @@ DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
 
-
 # steam游戏
 DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
 DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
@@ -139,10 +136,10 @@ DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-KEYWORD,steambroadcast
 DOMAIN-KEYWORD,steamstore
 DOMAIN-KEYWORD,steamuserimages
-
-
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
+
+# Steam相关IP段
 IP-CIDR,45.121.184.0/24,no-resolve
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
@@ -162,12 +159,12 @@ IP-CIDR,162.254.192.0/21,no-resolve
 IP-CIDR,185.25.182.0/23,no-resolve
 IP-CIDR,190.217.32.0/22,no-resolve
 IP-CIDR,192.69.96.0/22,no-resolve
+IP-CIDR,205.185.194.0/24,no-resolve
 IP-CIDR,205.196.6.0/24,no-resolve
 IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,208.78.164.0/22,no-resolve
-IP-CIDR,205.185.194.0/24,no-resolve
 
-# 局域网IP
+# 局域网和保留地址
 DOMAIN-SUFFIX,ip6-localhost
 DOMAIN-SUFFIX,ip6-loopback
 DOMAIN-SUFFIX,lan
