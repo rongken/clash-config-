@@ -1,43 +1,49 @@
-# 内容：OpenAi Bard anthropic
-# 域名关键字匹配
-# DOMAIN-KEYWORD,openai
-# DOMAIN-KEYWORD,anthropic
-# DOMAIN-KEYWORD,Claude
-# 域名后缀匹配
-DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,bing.com
+# AI 域名分流规则（OpenAI / Claude / Bard / Gemini / xAI / Copilot 等）
+# 无 DOMAIN-KEYWORD，无 IP-CIDR，无 IP-ASN
+# 适用于 Clash / OpenClash / Surge 等系统
+# ========================================
 
-DOMAIN-SUFFIX,chatgpt.com
+# 完整域名匹配
+DOMAIN,copilot.microsoft.com
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,bortzmeyer.org
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,circumlunar.space
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,conman.org
+DOMAIN-SUFFIX,difyai.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,mozz.us
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,circumlunar.space
-DOMAIN-SUFFIX,vulpes.one
-DOMAIN-SUFFIX,mozz.us
-DOMAIN-SUFFIX,conman.org
-DOMAIN-SUFFIX,bortzmeyer.org
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,genspark.ai
-
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,x.ai
-
-DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,vulpes.one
+DOMAIN-SUFFIX,x.ai
