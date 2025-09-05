@@ -121,6 +121,7 @@ DOMAIN-SUFFIX,viabtc.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,iill.top
 DOMAIN-SUFFIX,aktv.top
+DOMAIN-SUFFIX,dynv6.net
 
 # DOMAIN-KEYWORD 规则（去重）
 DOMAIN-KEYWORD,missav
