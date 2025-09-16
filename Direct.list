@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,wxlivecdn.com
 DOMAIN-SUFFIX,tlivesource.com
 
 # 域名关键字匹配
+DOMAIN-KEYWORD,libvio
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,ok321
 DOMAIN-KEYWORD,ddys
