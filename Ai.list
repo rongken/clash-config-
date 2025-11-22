@@ -1,5 +1,5 @@
 # ========================================
-# 1. OpenAI (ChatGPT / API / Voice)
+# 1. OpenAI (ChatGPT / Sora / API)
 # ========================================
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -8,10 +8,11 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
-# ChatGPT 语音模式 / 实时通信 (必须)
+# 语音模式与实时通信 (Realtime API)
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
-# 身份验证与功能开关 (OpenAI 强依赖)
+DOMAIN-SUFFIX,turn.livekit.cloud
+# 安全验证 (被广泛拦截的关键域名)
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
@@ -23,6 +24,7 @@ DOMAIN-SUFFIX,api.statsig.com
 # ========================================
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
 
 # ========================================
 # 3. Google (Gemini / PaLM / AI Studio)
@@ -31,24 +33,112 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # ========================================
-# 4. Microsoft (Copilot)
+# 4. Microsoft (Copilot / Bing AI)
 # ========================================
 DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
-DOMAIN-SUFFIX,signalr.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurewebsites.net
+# Copilot 依赖
+DOMAIN-SUFFIX,sydney.bing.com
+DOMAIN-SUFFIX,www.bing.com
+DOMAIN-SUFFIX,c.bing.com
 
 # ========================================
-# 5. xAI (Grok)
+# 5. AI 搜索 (Perplexity / Genspark)
 # ========================================
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,labs.perplexity.ai
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,you.com
+
+# ========================================
+# 6. AI 绘画 (Midjourney / Stable Diffusion / Ideogram)
+# ========================================
+# Midjourney (依赖 Discord)
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+# Stability AI
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,clipdrop.co
+# Ideogram
+DOMAIN-SUFFIX,ideogram.ai
+# Civitai (模型站)
+DOMAIN-SUFFIX,civitai.com
+# SeaArt
+DOMAIN-SUFFIX,seaart.ai
+# Leonardo.ai
+DOMAIN-SUFFIX,leonardo.ai
+
+# ========================================
+# 7. AI 视频 (Luma / Runway / Kling / Pika)
+# ========================================
+# Luma Dream Machine
+DOMAIN-SUFFIX,lumalabs.ai
+# RunwayML
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runwayml.cloud
+# Kling AI (可灵国际版)
+DOMAIN-SUFFIX,klingai.com
+DOMAIN-SUFFIX,kling.ai
+# Pika Labs
+DOMAIN-SUFFIX,pika.art
+# Sora (目前挂在 OpenAI 下，预防性添加)
+DOMAIN-SUFFIX,sora.com
+
+# ========================================
+# 8. AI 音乐 (Suno / Udio)
+# ========================================
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,audio.suno.ai
+DOMAIN-SUFFIX,cdn.suno.ai
+DOMAIN-SUFFIX,udio.com
+
+# ========================================
+# 9. AI 编程与开发 (GitHub Copilot / Cursor)
+# ========================================
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,supermaven.com
+DOMAIN-SUFFIX,tabnine.com
+
+# ========================================
+# 10. 聚合平台与开源社区 (Poe / HuggingFace)
+# ========================================
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+
+# ========================================
+# 11. 其他流行模型 (xAI / Mistral / Groq)
+# ========================================
+# xAI (Grok)
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
-
-# ========================================
-# 6. 其他 AI 服务 (Groq / Dify / Genspark)
-# ========================================
-DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,genspark.ai
+# Mistral AI
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,chat.mistral.ai
+DOMAIN-SUFFIX,console.mistral.ai
+# Groq (高速推理)
 DOMAIN-SUFFIX,groq.com
+# Cohere
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
