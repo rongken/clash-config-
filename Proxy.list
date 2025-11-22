@@ -212,13 +212,3 @@ DOMAIN-SUFFIX,polivera.ai
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,stotik.com
 DOMAIN-SUFFIX,streetfighter.com
-
-# ==============================
-# 9. 特殊 IP 段规则
-# ==============================
-IP-CIDR,52.211.1.180/32,no-resolve
-IP-CIDR,95.161.76.0/24,no-resolve
-IP-CIDR,99.81.97.56/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
-IP-CIDR,142.171.133.131/32,no-resolve
