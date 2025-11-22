@@ -94,8 +94,6 @@ DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,kling.ai
 # Pika Labs
 DOMAIN-SUFFIX,pika.art
-# Sora (目前挂在 OpenAI 下，预防性添加)
-DOMAIN-SUFFIX,sora.com
 
 # ========================================
 # 8. AI 音乐 (Suno / Udio)
