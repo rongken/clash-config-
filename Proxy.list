@@ -1,14 +1,10 @@
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
-IP-CIDR,95.161.76.0/24,no-resolve
-IP-CIDR,52.211.1.180/32,no-resolve
-IP-CIDR,99.81.97.56/32,no-resolve
-
-# 内容：Google
+# ==============================
+# 1. Google 服务
+# ==============================
+# 关键字匹配 (涵盖广)
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
+# 域名后缀
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.net
@@ -24,131 +20,42 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# Google IP段
 IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,142.250.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
+# ==============================
+# 2. DNS 服务 (国外)
+# ==============================
+# Cloudflare / OpenDNS / DNS.SB / Quad9 / Google DNS
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,doh.dns.sb
 DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,dot.sb
 DOMAIN-SUFFIX,hk-hkg.doh.sb
+# 知名公共DNS IP
+IP-CIDR,1.0.0.1/32,no-resolve
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,185.222.222.222/32,no-resolve
+IP-CIDR,208.67.220.220/32,no-resolve
+IP-CIDR,208.67.222.222/32,no-resolve
 
-
-# DOMAIN-SUFFIX 规则
-DOMAIN-SUFFIX,polymarket.com
-DOMAIN-SUFFIX,cacapex.com
-DOMAIN-SUFFIX,1lib.sk
-DOMAIN-SUFFIX,6bcloud.top
-DOMAIN-SUFFIX,viptwo.top
-DOMAIN-SUFFIX,followme.com
-DOMAIN-SUFFIX,followme.ceo
-DOMAIN-SUFFIX,whatsmydns.me
-DOMAIN-SUFFIX,hostloc.net
-DOMAIN-SUFFIX,tmgm.com
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plexmediaserver.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,surfsharkdns.com
-DOMAIN-SUFFIX,llgjc1.com
-DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,stotik.com
-DOMAIN-SUFFIX,streetfighter.com
-DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,fcdn.sk
-DOMAIN-SUFFIX,kooink.com
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,hlive.io
-DOMAIN-SUFFIX,ndmdhs.com
-DOMAIN-SUFFIX,anygate.vip
-DOMAIN-SUFFIX,yfsp.tv
-DOMAIN-SUFFIX,bitwayeat.com
-DOMAIN-SUFFIX,etcbbf.xyz
-DOMAIN-SUFFIX,etcbbj.xyz
-DOMAIN-SUFFIX,etcbbh.xyz
-DOMAIN-SUFFIX,etcbbg.xyz
-DOMAIN-SUFFIX,bugsnag.com
-DOMAIN-SUFFIX,pipecdn.vip
-DOMAIN-SUFFIX,wyav.tv
-DOMAIN-SUFFIX,tfboyaac.com
-DOMAIN-SUFFIX,tfboyaab.com
-DOMAIN-SUFFIX,aiyifan.tv
-DOMAIN-SUFFIX,tfboyaaa.com
-DOMAIN-SUFFIX,polivera.ai
-DOMAIN-SUFFIX,mmcks.top
-DOMAIN-SUFFIX,needay.xyz
-DOMAIN-SUFFIX,mzzxuh.com
-DOMAIN-SUFFIX,lianjiasub.work
-DOMAIN-SUFFIX,muniucloud.pro
-DOMAIN-SUFFIX,kuajing.uk
-DOMAIN-SUFFIX,metacubex.one
-DOMAIN-SUFFIX,xiaoxintv.cc
-DOMAIN-SUFFIX,69yun.top
-DOMAIN-SUFFIX,nivodi.com
-DOMAIN-SUFFIX,abcproxy.com
-DOMAIN-SUFFIX,piliapp.com
-DOMAIN-SUFFIX,meijutt.cc
-DOMAIN-SUFFIX,piaohua.com
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,browserscan.net
-DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,dnscheck.tools
-DOMAIN-SUFFIX,arin.net
-DOMAIN-SUFFIX,null-addr.com
-DOMAIN-SUFFIX,null-addr.net
-DOMAIN-SUFFIX,null-addr.org
-DOMAIN-SUFFIX,null-addr.biz
-DOMAIN-SUFFIX,null-addr.info
-DOMAIN-SUFFIX,addr.tools
-DOMAIN-SUFFIX,bulianglin.com
-DOMAIN-SUFFIX,coincola.com
-DOMAIN-SUFFIX,coincolacdn.com
-DOMAIN-SUFFIX,f666666.xyz
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,viabtc.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,iill.top
-DOMAIN-SUFFIX,nnyy.in
-DOMAIN-SUFFIX,dynv6.net
-DOMAIN-SUFFIX,webtoons.com
-
-# DOMAIN-KEYWORD 规则（去重）
-DOMAIN-KEYWORD,missav
-DOMAIN-KEYWORD,yfsp
-DOMAIN-KEYWORD,iyf
-DOMAIN-KEYWORD,hlive
-DOMAIN-KEYWORD,vlive
-DOMAIN-KEYWORD,ytv9x
-DOMAIN-KEYWORD,6868
-DOMAIN-KEYWORD,emotn
-DOMAIN-KEYWORD,bambooplayer
-DOMAIN-KEYWORD,notescrassula
-DOMAIN-KEYWORD,keeflys
-
-DOMAIN-KEYWORD,porn  
-DOMAIN-SUFFIX,8teenxxx.com  
-DOMAIN-SUFFIX,pornhub.com  
-DOMAIN-SUFFIX,redtube.com  
-DOMAIN-SUFFIX,xhamster.com  
-DOMAIN-SUFFIX,xvideos.com  
-
+# ==============================
+# 3. 音乐流媒体 (Qobuz & Tidal)
+# ==============================
+# Tidal
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,wimpmusic.com
+# Qobuz (及各种后缀/拼写变体)
 DOMAIN-SUFFIX,cobeuz.fr
 DOMAIN-SUFFIX,cobuz.fr
 DOMAIN-SUFFIX,cobuzz.fr
@@ -181,12 +88,137 @@ DOMAIN-SUFFIX,quobuz.com
 DOMAIN-SUFFIX,quobuz.fr
 DOMAIN-SUFFIX,static-qobuz.com
 
-# 重要DNS
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
-IP-CIDR,142.250.0.0/16,no-resolve
+# ==============================
+# 4. 视频与影视 (Plex / WebToon / 影视站)
+# ==============================
+# Plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plexmediaserver.com
+# 漫画
+DOMAIN-SUFFIX,webtoons.com
+# 影视站/采集站 (杂项)
+DOMAIN-SUFFIX,6bcloud.top
+DOMAIN-SUFFIX,69yun.top
+DOMAIN-SUFFIX,aiyifan.tv
+DOMAIN-SUFFIX,anygate.vip
+DOMAIN-SUFFIX,bitwayeat.com
+DOMAIN-SUFFIX,etcbbf.xyz
+DOMAIN-SUFFIX,etcbbg.xyz
+DOMAIN-SUFFIX,etcbbh.xyz
+DOMAIN-SUFFIX,etcbbj.xyz
+DOMAIN-SUFFIX,hlive.io
+DOMAIN-SUFFIX,iill.top
+DOMAIN-SUFFIX,lianjiasub.work
+DOMAIN-SUFFIX,meijutt.cc
+DOMAIN-SUFFIX,mmcks.top
+DOMAIN-SUFFIX,muniucloud.pro
+DOMAIN-SUFFIX,mzzxuh.com
+DOMAIN-SUFFIX,ndmdhs.com
+DOMAIN-SUFFIX,needay.xyz
+DOMAIN-SUFFIX,nnyy.in
+DOMAIN-SUFFIX,piaohua.com
+DOMAIN-SUFFIX,pipecdn.vip
+DOMAIN-SUFFIX,tfboyaaa.com
+DOMAIN-SUFFIX,tfboyaab.com
+DOMAIN-SUFFIX,tfboyaac.com
+DOMAIN-SUFFIX,viptwo.top
+DOMAIN-SUFFIX,wyav.tv
+DOMAIN-SUFFIX,xiaoxintv.cc
+DOMAIN-SUFFIX,yfsp.tv
+# 关键字匹配
+DOMAIN-KEYWORD,6868
+DOMAIN-KEYWORD,bambooplayer
+DOMAIN-KEYWORD,emotn
+DOMAIN-KEYWORD,hlive
+DOMAIN-KEYWORD,iyf
+DOMAIN-KEYWORD,keeflys
+DOMAIN-KEYWORD,notescrassula
+DOMAIN-KEYWORD,vlive
+DOMAIN-KEYWORD,yfsp
+DOMAIN-KEYWORD,ytv9x
+
+# ==============================
+# 5. 网络工具与IP检测
+# ==============================
+DOMAIN-SUFFIX,abcproxy.com
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,arin.net
+DOMAIN-SUFFIX,asiassn.com
+DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dynv6.net
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,kuajing.uk
+DOMAIN-SUFFIX,nivodi.com
+DOMAIN-SUFFIX,null-addr.biz
+DOMAIN-SUFFIX,null-addr.com
+DOMAIN-SUFFIX,null-addr.info
+DOMAIN-SUFFIX,null-addr.net
+DOMAIN-SUFFIX,null-addr.org
+DOMAIN-SUFFIX,piliapp.com
+DOMAIN-SUFFIX,surfsharkdns.com
+DOMAIN-SUFFIX,whatsmydns.me
+
+# ==============================
+# 6. 金融 / 加密货币 / 商业
+# ==============================
+DOMAIN-SUFFIX,cacapex.com
+DOMAIN-SUFFIX,coincola.com
+DOMAIN-SUFFIX,coincolacdn.com
+DOMAIN-SUFFIX,f2pool.com
+DOMAIN-SUFFIX,followme.ceo
+DOMAIN-SUFFIX,followme.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,tmgm.com
+DOMAIN-SUFFIX,viabtc.com
+
+# ==============================
+# 7. 成人内容 (Adult)
+# ==============================
+DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,porn
+DOMAIN-SUFFIX,8teenxxx.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xvideos.com
+
+# ==============================
+# 8. 其他杂项 (游戏/书籍/博客)
+# ==============================
+DOMAIN-SUFFIX,1lib.sk
+DOMAIN-SUFFIX,bulianglin.com
+DOMAIN-SUFFIX,capcom.com
+DOMAIN-SUFFIX,fcdn.sk
+DOMAIN-SUFFIX,hostloc.net
+DOMAIN-SUFFIX,kooink.com
+DOMAIN-SUFFIX,llgjc1.com
+DOMAIN-SUFFIX,metacubex.one
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,polivera.ai
+DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,stotik.com
+DOMAIN-SUFFIX,streetfighter.com
+
+# ==============================
+# 9. 特殊 IP 段规则
+# ==============================
+IP-CIDR,52.211.1.180/32,no-resolve
+IP-CIDR,95.161.76.0/24,no-resolve
+IP-CIDR,99.81.97.56/32,no-resolve
+IP-CIDR,103.115.43.2/32,no-resolve
+IP-CIDR,104.236.69.0/24,no-resolve
+IP-CIDR,142.171.133.131/32,no-resolve
