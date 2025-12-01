@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,claudeusercontent.com
 # ========================================
 # 3. Google (Gemini / PaLM / AI Studio)
 # ========================================
+DOMAIN-KEYWORD,gemini
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,makersuite.google.com
@@ -37,6 +38,7 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.googleapis.com
 
 # ========================================
 # 4. Microsoft (Copilot / Bing AI)
