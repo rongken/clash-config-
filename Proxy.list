@@ -1,9 +1,6 @@
 # ==============================
 # 1. Google 服务
 # ==============================
-# 关键字匹配 (涵盖广)
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 # 域名后缀
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
