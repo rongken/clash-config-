@@ -37,10 +37,10 @@ DOMAIN-SUFFIX,tinyadx.com
 DOMAIN-SUFFIX,tlivesource.com
 DOMAIN-SUFFIX,tv.yydsys.top
 DOMAIN-SUFFIX,us.kg
-DOMAIN-SUFFIX,vstsvip.top
 DOMAIN-SUFFIX,wxlivecdn.com
 
 # 域名关键字匹配
+DOMAIN-KEYWORD,vstsvip
 DOMAIN-KEYWORD,857fans
 DOMAIN-KEYWORD,857kan
 DOMAIN-KEYWORD,91muou
