@@ -1,0 +1,37 @@
+exclude_remarks=(Data Left|Remain:|Traffic:|Expir[ey]|Reset|剩[余餘]流量|流量[：:]|[到过過效]期|[时時][间間]|重置|分割线|使用容量|有効期限|频道|群组|免费(节点|订阅|套餐)?|t\.me(/\w+)?)
+
+ruleset=国内,https://raw.githubusercontent.com/rongken/clash-config-/refs/heads/main/Direct.list
+ruleset=国内,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list
+ruleset=国内,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list
+ruleset=AI,https://raw.githubusercontent.com/rongken/clash-config-/main/Ai.list
+ruleset=TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
+ruleset=流媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+ruleset=流媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
+ruleset=流媒体,https://raw.githubusercontent.com/rongken/ios_rule_script/master/rule/Clash/HBO/HBO.list
+ruleset=国外,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
+ruleset=国内,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list
+ruleset=国内,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list
+ruleset=国内,GEOIP,CN
+ruleset=国外,[]FINAL
+
+
+custom_proxy_group=AI`select`[]所有地区-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]手动节点
+custom_proxy_group=TikTok`select`[]所有地区-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]手动节点
+custom_proxy_group=流媒体`select`[]所有地区-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]手动节点
+custom_proxy_group=国外`select`[]所有地区-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]手动节点
+custom_proxy_group=国内`select`[]DIRECT`[]所有地区-自动`[]手动节点
+
+custom_proxy_group=手动节点`select`.*
+custom_proxy_group=所有地区-自动`url-test`(?i)(港|香港|HK|Hong\s*Kong|🇭🇰|台湾|Taiwan|TW|🇹🇼|中华电信|中華電信|台灣|日本|JP|Tokyo|大阪|Osaka|🇯🇵|软银|新加坡|SG|Singapore|🇸🇬|狮城|Singtel|美国|US|United\s*States|🇺🇸|洛杉矶|Los\s*Angeles|硅谷|Silicon\s*Valley|纽约|New\s*York|韩国|Korea|KR|🇰🇷|首尔|Seoul|优选|官方|CF)`https://www.gstatic.com/generate_204`300,800
+custom_proxy_group=香港-自动`url-test`(?i)(港|香港|HK|Hong\s*Kong|🇭🇰)`https://www.gstatic.com/generate_204`60,800
+custom_proxy_group=台湾-自动`url-test`(?i)(台湾|Taiwan|TW|🇹🇼|中华电信|中華電信|台灣)`https://www.gstatic.com/generate_204`60,800
+custom_proxy_group=日本-自动`url-test`(?i)(日本|JP|Tokyo|大阪|Osaka|🇯🇵|软银)`https://www.gstatic.com/generate_204`80,800
+custom_proxy_group=新加坡-自动`url-test`(?i)(新加坡|SG|Singapore|🇸🇬|狮城|Singtel)`https://www.gstatic.com/generate_204`80,800
+custom_proxy_group=韩国-自动`url-test`(?i)(韩国|Korea|KR|🇰🇷|首尔|Seoul)`https://www.gstatic.com/generate_204`80,800
+custom_proxy_group=美国-自动`url-test`(?i)(美国|US|United\s*States|🇺🇸|洛杉矶|Los\s*Angeles|硅谷|Silicon\s*Valley|纽约|New\s*York)`https://www.gstatic.com/generate_204`120,800
+
+enable_rule_generator=true
+overwrite_original_rules=true
+skip_duplicates=true
+ignore_invalid_entries=true
+auto_skip_invalid=true
