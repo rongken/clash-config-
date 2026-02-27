@@ -2,7 +2,6 @@
 # 1. 自定义/国内媒体/工具 (MyList)
 # ==============================
 # 域名后缀匹配
-DOMAIN-SUFFIX,zerotier.com
 DOMAIN-SUFFIX,130519.xyz
 DOMAIN-SUFFIX,163189.xyz
 DOMAIN-SUFFIX,1678520.xyz
